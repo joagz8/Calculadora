@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Vinculación con Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo"><h1>Calculadora</h1></div>
+        <div class="primerOperando">
+            <label for="pOperando">Ingrese el primer operando: </label>
+            <input type="text" id="pOperando">
+        </div>
+        <div class="segundoOperando">
+            <label for="sOperando">Ingrese el segundo operando: </label>
+            <input type="text" id="sOperando">
+        </div>
+        <div class="botones">
+            <button class="boton" id="botonSumar">+</button>
+            <button class="boton" id="botonRestar">-</button>
+            <button class="boton" id="botonMultiplicar">x</button>
+            <button class="boton" id="botonDividir">/</button>
+        </div>      
+        <div class="resultado">
+            <label for="r">El resultado es: </label>
+            <input type="text" id="r" >
+        </div>    
+    </div>
+    <!--Vinculación con Javascript-->
+    <script src="script.js"></script>
+</body>
+</html>

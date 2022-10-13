@@ -1,0 +1,28 @@
+archivo html
+archivo css
+archivo js
+vincularlos
+
+html:
+crear titulo(h1)
+label "Ingrese el primer operando"
+caja para ingresar el numero
+label "Ingresse el segundo operando"
+caja para ingresar el numero
+crear boton para suma, resta, multiplicacion y division
+label "el resultado es: "
+caja para label
+
+css:
+fondo de color
+titulo de color y centrado
+botones de colores y redondeados
+
+Javascript:
+agregar el primer numero
+agregar el segundo numero
+captar si selecciona la opcion sumar, restar, ultiplicar o dividir
+realizar calculo
+mostrar resultado
+
+
